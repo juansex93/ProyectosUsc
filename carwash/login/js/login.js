@@ -27,7 +27,7 @@ function buscarUsuario(){
             },  
             success: function(data) {
                 //TransformStream.success("Ecnontro los usuarios");
-                console.log("Encontro al usuario");
+                console.log("Encontro al usuario !!");
             },
 
             error: function (jqXHR, testStatus, errorThrown) {
