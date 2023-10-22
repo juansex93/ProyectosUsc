@@ -67,10 +67,11 @@
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
-                <span>O utiliza tu correo electronico para registrarte</span>
-                <input type="text" placeholder="Nombre">
-                <input type="email" placeholder="Correo">
-                <input type="password" placeholder="Contraseña">
+                <!-- <span>O ingresa tus datos personales para registrarte</span> -->
+                <input type="text" name="name" placeholder="Nombre" id="yourName" required>
+                <input type="email" name="email" placeholder="Correo" id="yourEmail" required>
+                <input type="text" name="username" placeholder="Usuario" id="yourUsaername" required>
+                <input type="password" name="password" placeholder="Contraseña" id="yourPassword" required>
                 <button>Registrarse</button>
             </form>
         </div>
@@ -83,9 +84,9 @@
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
-                <span>O usa tu correo y contraseña</span>
-                <input type="email" placeholder="Correo">
-                <input type="password" placeholder="Contraseña">
+                <!-- <span>O usa tu usuario y contraseña</span> -->
+                <input type="text" name="username" placeholder="Usuario" id="yourUsername" required>
+                <input type="password" name="password" placeholder="Contraseña" id="yourPassword" required>
                 <a href="#">Perdiste tu contraseña?</a>
                 <button>Ingresar</button>
             </form>
@@ -94,7 +95,7 @@
             <div class="toggle">
                 <div class="toggle-panel toggle-left">
                     <h1>Bienvenido de vuelta!</h1>
-                    <p>Ingrese sus datos personales para utilizar todas las funciones del sitio</p>
+                    <p>Ingresa con tu usuario y contraseña para utilizar todas las funciones del sitio</p>
                     <button class="hidden" id="login">Ingresar</button>
                 </div>
                 <div class="toggle-panel toggle-right">
