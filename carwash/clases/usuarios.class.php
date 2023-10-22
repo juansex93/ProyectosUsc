@@ -1,20 +1,20 @@
 <?php
 
-include 'CRUD/CRUD.php';
+include '../webService/CRUD/CRUD.php';
 
-class EjemploPost {
+class usuarios {
 
     function __construct() {
         
     }
 
-    function insertarUsuario($id_vehiculo, $tipo_vehiculo, $tipo_servicio) {
+    function insertarUsuario($id_usuario, $usuario, $password) {
         try {
             // Comprobar si la solicitud es POST
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // Obtener los datos enviados en la solicitud POST
                 $crud = new crud();
-                $sql = "INSERT INTO vehiculo (id_vehiculo, tipo_vehiculo, tipo_servicio ) VALUES ($id_vehiculo, '$tipo_vehiculo', '$tipo_servicio')";
+                $sql = "INSERT INTO usuarios (id_usuario, usuario, password ) VALUES ($id_usuario, '$usuario', '$password')";
                 $response =  $crud ->insertar($sql);
 
             } else {
@@ -32,13 +32,23 @@ class EjemploPost {
             echo json_encode($response);
         }
     }
+
+    function obtenerUsuarios($usuario,$password) {
+
+        
+        $crud = new crud();
+
+        $resp = $crud->consultar("select * from usuarios where usuario = "+$usuario+" password = "+$password+";");
+        header('Content-Type: application/json');
+        echo json_encode($resp);
+    }
 }
 
 
 
 
 // Crear una instancia de la clase 'crud'
-$ejemploPost = new EjemploPost();
+$ejemploPost = new usuarios();
 // Llamar a la función 'insertarUsuario' para manejar la solicitud POST
 
 $id_vehi="11";
