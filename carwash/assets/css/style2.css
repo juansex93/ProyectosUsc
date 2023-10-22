@@ -14,7 +14,11 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+<<<<<<< HEAD
     height: 95vh;
+=======
+    height: 100vh;
+>>>>>>> c954855 (configuracion, creacion y cambion en el login y e registro)
 }
 
 .container{
@@ -208,6 +212,7 @@ body{
 
 .container.active .toggle-right{
     transform: translateX(200%);
+<<<<<<< HEAD
 }
 
 .logo {
@@ -232,3 +237,6 @@ body{
     /* color: #012970; */
     /* font-family: "Nunito", sans-serif; */
   /* } */
+=======
+}
+>>>>>>> c954855 (configuracion, creacion y cambion en el login y e registro)
