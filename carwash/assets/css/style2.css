@@ -14,7 +14,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 95vh;
 }
 
 .container{
@@ -209,3 +209,26 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+
+.logo {
+    line-height: 1;
+  }
+  
+  @media (min-width: 1200px) {
+    .logo {
+      width: 280px;
+    }
+  }
+  
+  .logo img {
+    max-width: 150px;
+    max-height: 110px;
+    margin-right: 10px;
+  }
+  
+  /* .logo span { */
+    /* font-size: 26px; */
+    /* font-weight: 700; */
+    /* color: #012970; */
+    /* font-family: "Nunito", sans-serif; */
+  /* } */
