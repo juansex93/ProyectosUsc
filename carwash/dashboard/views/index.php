@@ -282,199 +282,6 @@
         </li><!-- End Dashboard Nav -->
 
         <li class="nav-item">
-          <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-            <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
-          </a>
-          <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-            <li>
-              <a href="../../components/components-alerts.html">
-                <i class="bi bi-circle"></i><span>Alerts</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-accordion.html">
-                <i class="bi bi-circle"></i><span>Accordion</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-badges.html">
-                <i class="bi bi-circle"></i><span>Badges</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-breadcrumbs.html">
-                <i class="bi bi-circle"></i><span>Breadcrumbs</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-buttons.html">
-                <i class="bi bi-circle"></i><span>Buttons</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-cards.html">
-                <i class="bi bi-circle"></i><span>Cards</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-carousel.html">
-                <i class="bi bi-circle"></i><span>Carousel</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-list-group.html">
-                <i class="bi bi-circle"></i><span>List group</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-modal.html">
-                <i class="bi bi-circle"></i><span>Modal</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-tabs.html">
-                <i class="bi bi-circle"></i><span>Tabs</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-pagination.html">
-                <i class="bi bi-circle"></i><span>Pagination</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-progress.html">
-                <i class="bi bi-circle"></i><span>Progress</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-spinners.html">
-                <i class="bi bi-circle"></i><span>Spinners</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/components-tooltips.html">
-                <i class="bi bi-circle"></i><span>Tooltips</span>
-              </a>
-            </li>
-          </ul>
-        </li><!-- End Components Nav -->
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
-            <i class="bi bi-journal-text"></i><span>Forms</span><i class="bi bi-chevron-down ms-auto"></i>
-          </a>
-          <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-            <li>
-              <a href="../../components/../../components/forms-elements.html">
-                <i class="bi bi-circle"></i><span>Form Elements</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/../../components/forms-layouts.html">
-                <i class="bi bi-circle"></i><span>Form Layouts</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/../../components/forms-editors.html">
-                <i class="bi bi-circle"></i><span>Form Editors</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/../../components/forms-validation.html">
-                <i class="bi bi-circle"></i><span>Form Validation</span>
-              </a>
-            </li>
-          </ul>
-        </li><!-- End Forms Nav -->
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
-            <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
-          </a>
-          <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-            <li>
-              <a href="../../components/tables-general.html">
-                <i class="bi bi-circle"></i><span>General Tables</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/tables-data.html">
-                <i class="bi bi-circle"></i><span>Data Tables</span>
-              </a>
-            </li>
-          </ul>
-        </li><!-- End Tables Nav -->
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
-            <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>
-          </a>
-          <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-            <li>
-              <a href="../../components/charts-chartjs.html">
-                <i class="bi bi-circle"></i><span>Chart.js</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/charts-apexcharts.html">
-                <i class="bi bi-circle"></i><span>ApexCharts</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/charts-echarts.html">
-                <i class="bi bi-circle"></i><span>ECharts</span>
-              </a>
-            </li>
-          </ul>
-        </li><!-- End Charts Nav -->
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
-            <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
-          </a>
-          <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-            <li>
-              <a href="../../components/icons-bootstrap.html">
-                <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/icons-remix.html">
-                <i class="bi bi-circle"></i><span>Remix Icons</span>
-              </a>
-            </li>
-            <li>
-              <a href="../../components/icons-boxicons.html">
-                <i class="bi bi-circle"></i><span>Boxicons</span>
-              </a>
-            </li>
-          </ul>
-        </li><!-- End Icons Nav -->
-
-        <li class="nav-heading">Pages</li>
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="../../components/users-profile.html">
-            <i class="bi bi-person"></i>
-            <span>Profile</span>
-          </a>
-        </li><!-- End Profile Page Nav -->
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="../../components/pages-faq.html">
-            <i class="bi bi-question-circle"></i>
-            <span>F.A.Q</span>
-          </a>
-        </li><!-- End F.A.Q Page Nav -->
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="../../components/pages-contact.html">
-            <i class="bi bi-envelope"></i>
-            <span>Contact</span>
-          </a>
-        </li><!-- End Contact Page Nav -->
-
-        <li class="nav-item">
           <a class="nav-link collapsed" href="../../login/views/loginPage.html">
             <i class="bi bi-card-list"></i>
             <span>Register</span>
@@ -487,21 +294,6 @@
             <span>Login</span>
           </a>
         </li><!-- End Login Page Nav -->
-
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="../../components/pages-error-404.html">
-            <i class="bi bi-dash-circle"></i>
-            <span>Error 404</span>
-          </a>
-        </li><!-- End Error 404 Page Nav -->
-
-        <li class="nav-item">
-          <a class="nav-link " href="../../components/pages-blank.html">
-            <i class="bi bi-file-earmark"></i>
-            <span>Blank</span>
-          </a>
-        </li><!-- End Blank Page Nav -->
-
         </ul>
 
       </aside><!-- End Sidebar-->
@@ -514,7 +306,7 @@
       <main id="main" class="main">
 
         <div class="pagetitle">
-          <h1>Dashboard</h1>
+          <h1>Inicio</h1>
           <nav>
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -811,53 +603,31 @@
                   </div>
 
                   <div class="card-body pb-0">
-                    <h5 class="card-title">Top Selling <span>| Today</span></h5>
+                    <h5 class="card-title">Servicios <span>| Hoy</span></h5>
 
                     <table class="table table-borderless">
                       <thead>
                         <tr>
-                          <th scope="col">Preview</th>
-                          <th scope="col">Product</th>
-                          <th scope="col">Price</th>
-                          <th scope="col">Sold</th>
-                          <th scope="col">Revenue</th>
+                        <th scope="col">Vista</th>
+                          <th scope="col">Tipo Servicio</th>
+                          <th scope="col">Precio</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <th scope="row"><a href="#"><img src="../../assets/img/product-1.jpg" alt=""></a></th>
                           <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa voluptas nulla</a></td>
-                          <td>$64</td>
-                          <td class="fw-bold">124</td>
                           <td>$5,828</td>
                         </tr>
                         <tr>
                           <th scope="row"><a href="#"><img src="../../assets/img/product-2.jpg" alt=""></a></th>
                           <td><a href="#" class="text-primary fw-bold">Exercitationem similique doloremque</a></td>
                           <td>$46</td>
-                          <td class="fw-bold">98</td>
-                          <td>$4,508</td>
                         </tr>
                         <tr>
                           <th scope="row"><a href="#"><img src="../../assets/img/product-3.jpg" alt=""></a></th>
                           <td><a href="#" class="text-primary fw-bold">Doloribus nisi exercitationem</a></td>
                           <td>$59</td>
-                          <td class="fw-bold">74</td>
-                          <td>$4,366</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><a href="#"><img src="../../assets/img/product-4.jpg" alt=""></a></th>
-                          <td><a href="#" class="text-primary fw-bold">Officiis quaerat sint rerum error</a></td>
-                          <td>$32</td>
-                          <td class="fw-bold">63</td>
-                          <td>$2,016</td>
-                        </tr>
-                        <tr>
-                          <th scope="row"><a href="#"><img src="../../assets/img/product-5.jpg" alt=""></a></th>
-                          <td><a href="#" class="text-primary fw-bold">Sit unde debitis delectus repellendus</a></td>
-                          <td>$79</td>
-                          <td class="fw-bold">41</td>
-                          <td>$3,239</td>
                         </tr>
                       </tbody>
                     </table>
