@@ -3,29 +3,46 @@
 include_once 'conection.php';
 
 
-class crud {
+class crud
+{
 
-    function __construct() {
-        
+    function __construct()
+    {
     }
 
-     function consultar($sql) {
-        
+
+    function getData($tableName)
+    {
         $conexion = new conexion();
         $pdo = $conexion->conect();
-        $sql = $pdo->prepare($sql);
-        $results = $sql->execute();
-        $rows = $sql->fetchAll(\PDO::FETCH_OBJ);
-        
+        $sql = $pdo->prepare("SELECT * FROM $tableName");
+        $sql->execute();
+        $rows = $sql->fetchAll(\PDO::FETCH_ASSOC);
+
+        // echo json_encode($rows);
+        // echo '<script>console.log(' . json_encode($rows) . ');</script>';
         return $rows;
     }
 
-    function insertar($sql) {
+
+    function consultar($sql)
+    {
+
+        $conexion = new conexion();
+        $pdo = $conexion->conect();
+        $sql = $pdo->prepare($sql);
+        $rows = $sql->fetchAll(\PDO::FETCH_ASSOC);
+
+        return $rows;
+    }
+
+    function insertar($sql)
+    {
         $conexion = new conexion();
         $pdo = $conexion->conect();
         $sql = $pdo->prepare($sql);
         $result = $sql->execute();
-        
+
         if ($result) {
             return "Registro insertado correctamente.";
         } else {
@@ -33,18 +50,19 @@ class crud {
         }
     }
 
-    function eliminar($sql) {
+    function eliminar($sql)
+    {
         $conexion = new conexion();
         $pdo = $conexion->conect();
         $sql = $pdo->prepare($sql);
         $result = $sql->execute();
-        
+
         if ($result) {
             return "Registro eliminado correctamente.";
         } else {
             return "Error al eliminar el registro.";
         }
     }
-    
-    
+
+
 }
